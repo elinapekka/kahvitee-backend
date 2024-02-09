@@ -1,6 +1,4 @@
-kahvi1;5.42;3.55;3
-test;49.0;33.22;4
-Kahvi232;83.0;25.0;4
-edgfh;0.0;0.0;1
-uusi kahvi;43.0;20.0;1
-taas;3.0;3.0;1
+Löfbergs Medium Roast;500.0;6.25;2
+Juhla Mokka;500.0;5.75;2
+Paulig Colombia Origins Blend;500.0;7.55;2
+Pirkka CostaRica;450.0;4.59;2

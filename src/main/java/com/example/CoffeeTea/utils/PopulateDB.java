@@ -20,7 +20,7 @@ public class PopulateDB {
 	@Autowired 
 	TeaRepository teaRepository;
 	
-	public void populate() {
+	public void populateCoffeeList() {
 		coffeeRepository.deleteAll();
 		
 	   	try {

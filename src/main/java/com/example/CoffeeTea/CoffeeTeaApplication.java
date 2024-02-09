@@ -15,9 +15,9 @@ public class CoffeeTeaApplication {
 	}
 	
 	@Bean
-	public CommandLineRunner demo(PopulateDB populateDb) {
+	public CommandLineRunner populate(PopulateDB populateDb) {
 		return (args) -> {
-			populateDb.populate();
+			populateDb.populateCoffeeList();
 			populateDb.populateTeaList();
 		};
 	}
