@@ -20,13 +20,6 @@ public class Coffee {
 		this.roastLevel = roastLevel;
 	}
 	
-	public Coffee(String name, double weight, double price, int roastLevel) {
-		this.name = name;
-		this.weight = weight;
-		this.price = price;
-		this.roastLevel = roastLevel;
-	}
-	
 	public Coffee() {
 		
 	}
@@ -34,7 +27,6 @@ public class Coffee {
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -42,7 +34,6 @@ public class Coffee {
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -50,7 +41,6 @@ public class Coffee {
 	public double getWeight() {
 		return weight;
 	}
-
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
@@ -58,7 +48,6 @@ public class Coffee {
 	public double getPrice() {
 		return price;
 	}
-
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -66,7 +55,6 @@ public class Coffee {
 	public int getRoastLevel() {
 		return roastLevel;
 	}
-
 	public void setRoastLevel(int roastLevel) {
 		this.roastLevel = roastLevel;
 	}

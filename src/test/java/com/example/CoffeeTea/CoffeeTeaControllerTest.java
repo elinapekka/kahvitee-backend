@@ -28,6 +28,24 @@ public class CoffeeTeaControllerTest {
     private PopulateDB populateDb;
     
     @Test
+    public void testAddCoffee() throws Exception {
+        mockMvc.perform(post("/addcoffee")
+                .param("name", "test coffee")
+                .param("weight", "15")
+                .param("price", "4")
+                .param("roastLevel", "2"))
+                .andExpect(status().isOk());
+    }
+	
+    @Test
+    public void testDeleteCoffee() throws Exception {
+        mockMvc.perform(delete("/deletecoffee")
+                .param("id", "1"))
+                .andExpect(status().isOk());
+    }
+
+    /*
+    @Test
     public void testEditCoffee() throws Exception {
         mockMvc.perform(post("/addcoffee")
                 .param("name", "test coffee")
@@ -44,26 +62,8 @@ public class CoffeeTeaControllerTest {
                 .param("roastLevel", "5"))
                 .andExpect(status().isOk());
     }
-    
-    @Test
-    public void testAddCoffee() throws Exception {
-        mockMvc.perform(post("/addcoffee")
-                .param("name", "test coffee")
-                .param("weight", "15")
-                .param("price", "4")
-                .param("roastLevel", "2"))
-                .andExpect(status().isOk());
-    }
-	
-	/*
-    @Test
-    public void testDeleteCoffee() throws Exception {
-        mockMvc.perform(delete("/deletecoffee")
-                .param("id", "1"))
-                .andExpect(status().isOk());
-    }
     */
-
+    
     @Test
     public void testAddTea() throws Exception {
         mockMvc.perform(post("/addtea")

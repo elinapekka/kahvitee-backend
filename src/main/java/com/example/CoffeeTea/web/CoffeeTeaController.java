@@ -18,7 +18,6 @@ import com.example.CoffeeTea.model.Tea;
 import com.example.CoffeeTea.model.TeaRepository;
 import com.example.CoffeeTea.utils.PopulateDB;
 
-
 @RestController
 public class CoffeeTeaController {
 	
