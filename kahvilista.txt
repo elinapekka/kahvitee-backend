@@ -1,4 +1,4 @@
 Löfbergs Medium Roast;500.0;6.25;2
 Juhla Mokka;500.0;5.75;1
 Paulig Colombia Origins Blend;500.0;7.55;3
-Pirkka CostaRica;450.0;4.59;3
+Pirkka Costa Rica;450.0;4.59;3
