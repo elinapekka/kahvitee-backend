@@ -43,6 +43,8 @@ public class PopulateDB {
 			}
 			reader.close();
 			
+			System.out.println(coffeeRepository.findAll());
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -69,6 +71,8 @@ public class PopulateDB {
 				teaRepository.save(tea);
 			}
 			reader.close();
+			
+			System.out.println(teaRepository.findAll());
 			
 		} catch (IOException e) {
 			e.printStackTrace();

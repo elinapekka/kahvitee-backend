@@ -20,6 +20,13 @@ public class Coffee {
 		this.roastLevel = roastLevel;
 	}
 	
+	public Coffee(String name, double weight, double price, int roastLevel) {
+		this.name = name;
+		this.weight = weight;
+		this.price = price;
+		this.roastLevel = roastLevel;
+	}
+	
 	public Coffee() {
 		
 	}
